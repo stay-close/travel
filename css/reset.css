@@ -2,14 +2,13 @@
 
 /* Google Fonts */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Montserrat", serif;
 }
 
 /* Remove default padding and margin */
@@ -35,10 +34,11 @@ ol[role="list"] {
   list-style: none;
 }
 
-ul, ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* Set core root defaults */
@@ -87,13 +87,13 @@ select {
 /* Remove default link styles */
 a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
 }
 
 /* Improve text readability */
 body {
-  text-rendering: optimizeLegibility; 
-  -webkit-font-smoothing: antialiased; 
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* Address inconsistent line height in all browsers (opinionated) */
@@ -119,6 +119,6 @@ input::-moz-focus-inner {
 
 /* Improve media defaults */
 video {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
