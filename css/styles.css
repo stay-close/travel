@@ -303,3 +303,34 @@ h3.section_heading {
 }
 
 /* ==== Single Featured Area ==== */
+
+/* ==== Most Destination Area ==== */
+.most_destinations_content p.details {
+  margin: 20px 0 30px 0;
+  text-align: center;
+}
+.destinations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.single_destination {
+  margin-bottom: 30px;
+}
+.single_destination picture {
+  position: relative;
+}
+
+.dest_location {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  border-radius: 0 0 30px 30px;
+  text-align: center;
+  padding: 15px 0;
+  color: var(--clr_white);
+}
+
+/* ==== Most Destination Area ==== */
