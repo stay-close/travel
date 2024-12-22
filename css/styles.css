@@ -334,3 +334,25 @@ h3.section_heading {
 }
 
 /* ==== Most Destination Area ==== */
+
+/* ====Counter Area ===== */
+.counter_area {
+  background: url("../images/counterBg.png") no-repeat center;
+  background-size: cover;
+}
+.counter_content {
+  display: flex;
+  justify-content: space-between;padding: 50px 0;
+}
+.single_count h4 {
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--clr_white);
+}
+.single_count p {
+  font-size: 30px;
+  font-weight: 400;
+  color: #949393;
+}
+
+/* ====Counter Area ===== */
