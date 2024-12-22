@@ -509,13 +509,35 @@ h3.section_heading {
   font-weight: 700;
   color: var(--clr_theme);
   padding-bottom: 20px;
-  border-bottom: 2px solid var(--clr_theme);margin-bottom: 20px;
+  border-bottom: 2px solid var(--clr_theme);
+  margin-bottom: 20px;
 }
 .all_links nav ul li {
   margin-bottom: 20px;
 }
-.all_links nav ul li a{
-  font-size: 20px;font-weight: 400;
+.all_links nav ul li a {
+  font-size: 20px;
+  font-weight: 400;
   padding: 20px 0;
 }
 /* ====Quick Links Area ==== */
+
+/* ====Footer Area==== */
+
+.footer_area {
+  padding: 30px 0;
+  background: var(--clr_secondary);
+  color: var(--clr_white);
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_content p {
+  font-size: 20px;
+}
+.footer_content .nav_right_btns ul li a {
+  border: 2px solid var(--clr_white);
+}
+/* ====Footer Area==== */
