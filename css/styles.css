@@ -265,7 +265,7 @@ h3.section_heading {
   background: var(--clr_white);
   border: 2px solid var(--clr_secondary);
 }
-.single_package:hover .pack_btn a{
+.single_package:hover .pack_btn a {
   background: var(--clr_secondary);
   border: 2px solid var(--clr_secondary);
 }
@@ -280,3 +280,25 @@ h3.section_heading {
 }
 
 /* ==== Featured Area CSS ==== */
+
+/* ==== Single Featured Area ==== */
+
+.single_featured {
+  background: var(--clr_theme);
+}
+.single_featured_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  background: url("../images/singleFeaturedBg.png") no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.featured_details h3,
+.featured_details h2,
+.featured_details p {
+  color: var(--clr_white);
+}
+
+/* ==== Single Featured Area ==== */
