@@ -121,6 +121,7 @@ h3.section_heading {
   text-transform: uppercase;
   font-weight: 400;
 }
+.single_featured h2,
 .top_left h2 {
   font-size: 55px;
   font-weight: 700;
