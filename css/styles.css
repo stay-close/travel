@@ -172,6 +172,7 @@ h3.section_heading {
   font-weight: 700;
   color: var(--clr_theme);
 }
+.subs_btn a,
 .book_btn a {
   display: block;
   padding: 13px 18px;
@@ -184,7 +185,7 @@ h3.section_heading {
   border: 2px solid var(--clr_secondary);
   transition: all 0.3s ease;
 }
-
+.subs_btn a:hover,
 .book_btn a:hover {
   background: var(--clr_white);
   color: var(--clr_secondary);
@@ -342,7 +343,8 @@ h3.section_heading {
 }
 .counter_content {
   display: flex;
-  justify-content: space-between;padding: 50px 0;
+  justify-content: space-between;
+  padding: 50px 0;
 }
 .single_count h4 {
   font-size: 55px;
@@ -356,3 +358,109 @@ h3.section_heading {
 }
 
 /* ====Counter Area ===== */
+
+/* ====Subs and comment area ==== */
+
+.top_img,
+.subs_content,
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subs_content {
+  padding: 20px 0 50px 0;
+}
+.subs_content .content p {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.subs_content .content h3 {
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--clr_theme);
+  padding: 30px 0;
+}
+.subs_btn input {
+  padding: 15px 20px;
+  border: 2px solid var(--clr_theme);
+  border-radius: 5px;
+}
+.subs_btn a {
+  display: inline-block;
+  padding: 11px 16px;
+  text-transform: capitalize;
+}
+
+.sponsors {
+  padding: 30px 20px;
+  border: 2px solid var(--clr_theme);
+  border-radius: 10px;
+}
+.sponsors picture {
+  position: relative;
+}
+.sponsors picture::before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 70%;
+  background: var(--clr_theme);
+  top: 15px;
+  right: -80px;
+}
+.sponsors picture:last-child::before {
+  display: none;
+}
+.comments {
+  padding: 50px 0;
+}
+.comments p.details {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.all_comments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 50px;
+}
+.single_comment {
+  box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.16);
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.single_comment h4 {
+  color: var(--clr_theme);
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.single_comment h5 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #262525;
+}
+.single_comment p {
+  margin: 0 auto;
+  max-width: 70%;
+  text-align: center;
+}
+.ratings ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.ratings i {
+  color: var(--clr_secondary);
+}
+
+/* ====Subs and comment area ==== */
