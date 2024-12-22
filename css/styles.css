@@ -1,3 +1,9 @@
+:root{
+  --clr_white: #fff;
+  --clr_theme: #036E8A;
+  --clr_secondary:#FF8000;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
