@@ -122,6 +122,7 @@ h3.section_heading {
   text-transform: uppercase;
   font-weight: 400;
 }
+.single_featured h2,
 .top_left h2 {
   font-size: 55px;
   font-weight: 700;
@@ -280,3 +281,25 @@ h3.section_heading {
 }
 
 /* ==== Featured Area CSS ==== */
+
+/* ==== Single Featured Area ==== */
+
+.single_featured {
+  background: var(--clr_theme);
+}
+.single_featured_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  background: url("../images/singleFeaturedBg.png") no-repeat center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.featured_details h3,
+.featured_details h2,
+.featured_details p {
+  color: var(--clr_white);
+}
+
+/* ==== Single Featured Area ==== */
