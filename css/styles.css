@@ -172,6 +172,7 @@ h3.section_heading {
   font-weight: 700;
   color: var(--clr_theme);
 }
+.contact_us_btn,
 .subs_btn a,
 .book_btn a {
   display: block;
@@ -185,6 +186,7 @@ h3.section_heading {
   border: 2px solid var(--clr_secondary);
   transition: all 0.3s ease;
 }
+.contact_us_btn:hover,
 .subs_btn a:hover,
 .book_btn a:hover {
   background: var(--clr_white);
@@ -464,3 +466,34 @@ h3.section_heading {
 }
 
 /* ====Subs and comment area ==== */
+
+/* ====Contact Us Area ===== */
+
+.contact_us_content {
+  background: var(--clr_theme) url("../images/contactUsBg.png") no-repeat center;
+  background-size: 70%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--clr_white);
+  border-radius: 10px;
+}
+.contact_us_content h2 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.contact_us_content p {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 50px 0;
+  text-align: center;
+}
+.contact_us_btn {
+  padding: 15px 30px;
+  font-weight: 500;
+  
+}
+
+/* ====Contact Us Area ===== */
