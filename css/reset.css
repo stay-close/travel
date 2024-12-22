@@ -9,6 +9,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Remove default padding and margin */
@@ -109,12 +110,12 @@ textarea {
 /* Correct the odd `font-size` override in Chrome for all form elements. */
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
-  border:none;
-  outline:none;
-}
-*:focus{
+  border: none;
   outline: none;
-  border:none;
+}
+*:focus {
+  outline: none;
+  border: none;
 }
 
 /* Remove the inner border and padding in Firefox 4+. */

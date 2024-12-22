@@ -100,3 +100,182 @@
   margin-left: 5px;
 }
 /* =====Slider Area CSS===== */
+
+/* ==== Featured Area CSS ==== */
+.featured_area {
+  background: url("../images/featuredBg.png");
+}
+
+.feature_content {
+  padding: 50px 0;
+}
+.feature_top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+h3.section_heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.top_left h2 {
+  font-size: 55px;
+  font-weight: 700;
+  color: var(--clr_theme);
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 42px 0;
+}
+.top_left p {
+  font-size: 20px;
+}
+.booking {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  border: 2px solid var(--clr_theme);
+  border-radius: 5px;
+}
+.location {
+  position: relative;
+}
+.location h4 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.location::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background: var(--clr_secondary);
+  top: 0;
+  right: -100px;
+}
+.rating i {
+  color: var(--clr_secondary);
+}
+.prices p {
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.prices h2 {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--clr_theme);
+}
+.book_btn a {
+  display: block;
+  padding: 13px 18px;
+  text-transform: uppercase;
+  color: var(--clr_white);
+  background: var(--clr_secondary);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 2px solid var(--clr_secondary);
+  transition: all 0.3s ease;
+}
+
+.book_btn a:hover {
+  background: var(--clr_white);
+  color: var(--clr_secondary);
+}
+
+.package_heading {
+  font-size: 60px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--clr_theme);
+  text-align: center;
+}
+.all_packages p.details {
+  font-size: 20px;
+  text-align: center;
+}
+
+.packages {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 50px 0;
+}
+.single_package {
+  position: relative;
+  border: 2px solid var(--clr_theme);
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+.pack_name {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--clr_theme);
+}
+.single_package h2 {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--clr_theme);
+}
+.single_package p {
+  color: var(--clr_theme);
+  font-size: 25px;
+}
+.single_package ul {
+  padding: 20px 0;
+}
+.single_package ul li {
+  font-size: 18px;
+}
+.single_package ul li i {
+  color: var(--clr_theme);
+  margin-right: 10px;
+}
+.rating i:last-child,
+.icon_light_clr i {
+  opacity: 0.5;
+}
+.pack_btn {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+.pack_btn a {
+  padding: 5px 8px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 500;
+  background: var(--clr_theme);
+  border: 2px solid var(--clr_theme);
+  border-radius: 8px;
+  color: var(--clr_white);
+  text-transform: uppercase;
+}
+.pack_btn a:hover {
+  background: var(--clr_white);
+  border: 2px solid var(--clr_secondary);
+}
+.single_package:hover .pack_btn a{
+  background: var(--clr_secondary);
+  border: 2px solid var(--clr_secondary);
+}
+.single_package:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.single_package:hover i,
+.single_package:hover p,
+.single_package:hover h3,
+.single_package:hover h2 {
+  color: var(--clr_secondary);
+}
+
+/* ==== Featured Area CSS ==== */
