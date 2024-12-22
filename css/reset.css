@@ -109,6 +109,12 @@ textarea {
 /* Correct the odd `font-size` override in Chrome for all form elements. */
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
+  border:none;
+  outline:none;
+}
+*:focus{
+  outline: none;
+  border:none;
 }
 
 /* Remove the inner border and padding in Firefox 4+. */

@@ -1,22 +1,28 @@
-:root{
+:root {
   --clr_white: #fff;
-  --clr_theme: #036E8A;
-  --clr_secondary:#FF8000;
+  --clr_theme: #036e8a;
+  --clr_secondary: #ff8000;
 }
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
+  height: 100%;
 }
 
 /* =====Header Area CSS====== */
-
+.header_area {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  background: var(--clr_white);
+}
 .header_content {
   display: flex;
   height: 60px;
   justify-content: space-between;
   align-items: center;
-  background: var(--clr_white);
   color: var(--clr_theme);
 }
 .nav_right_btns ul,
@@ -44,9 +50,53 @@
 
 /* =====Header Area CSS====== */
 
-
 /* =====Slider Area CSS===== */
 
-
-
+.slider_area {
+  padding-top: 80px;
+  background: url("../images/slider.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.slider_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  max-width: 700px;
+  margin: 0 auto;
+  color: var(--clr_white);
+}
+.slider_content h1 {
+  font-size: 89px;
+  color: var(--clr_white);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.slider_content p {
+  margin: 20px 0;
+}
+.search_location_btn {
+  align-self: flex-start;
+}
+.search_location_btn .search {
+  padding: 10px 15px;
+  background: var(--clr_white);
+  border-radius: 5px;
+  border: none;
+}
+.search_location_btn a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: var(--clr_secondary);
+  color: var(--clr_white);
+  margin-left: 5px;
+}
 /* =====Slider Area CSS===== */
