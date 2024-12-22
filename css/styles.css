@@ -493,7 +493,29 @@ h3.section_heading {
 .contact_us_btn {
   padding: 15px 30px;
   font-weight: 500;
-  
 }
 
 /* ====Contact Us Area ===== */
+
+/* ====Quick Links Area ==== */
+
+.all_links {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+.link_heading {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--clr_theme);
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--clr_theme);margin-bottom: 20px;
+}
+.all_links nav ul li {
+  margin-bottom: 20px;
+}
+.all_links nav ul li a{
+  font-size: 20px;font-weight: 400;
+  padding: 20px 0;
+}
+/* ====Quick Links Area ==== */
